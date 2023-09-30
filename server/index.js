@@ -15,8 +15,8 @@ app.use(express.json());
 //2) Allow Custom Origins
 app.use(
   cors({
-    origin: "http://localhost:5000",
-    methods: [GET, POST, PUT, DELETE],
+    origin: "http://localhost:5173",
+    methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type"],
   })
 );
